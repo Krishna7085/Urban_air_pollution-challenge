@@ -6,6 +6,26 @@ This tool utilizes machine learning algorithms to predict global PM2.5 levels le
 
 The project focuses on predicting PM2.5 levels globally, which is essential for understanding and addressing urban air pollution. The tool utilizes various machine learning models, such as Random Forest, Gradient Boosting, Extra Trees, K-Nearest Neighbors, and Linear Regression, to predict PM2.5 levels based on satellite and weather data.
 
+## Dataset
+
+Zindi - PM 2.5 Concentration Level Prediction
+
+In the project Ground Based-Sensors in train data used as target and model trained with 5P Satellite Data and The Global Forecast System (GFS) data.
+
+The Zindi Channel and Dataset: [Urban Air Pollution Challenge](https://zindi.africa/competitions/urban-air-pollution-challenge).
+
+### Features
+
+- [Weather Data](https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25).
+- [NO2: Offline Nitrogen Dioxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_NO2).
+- [AER AI: Offline UV Aerosol Index](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_AER_AI).
+- [SO2: Offline Sulfur Dioxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_SO2).
+- [CH4: Offline Methane](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4).
+- [O3: Offline Ozone](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3).
+- [CO: Offline Carbon Monoxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CO).
+- [HCHO: Offline Formaldehyde](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_HCHO).
+- [CLOUD: Near Real-Time Cloud](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CLOUD).
+
 ## Methodology
 The code in this repository leverages machine learning regressors from scikit-learn library for predicting PM2.5 levels:
 
